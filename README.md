@@ -1,6 +1,6 @@
 # Create Static Router...Error Replication
 
-This project should create a static router using synthtic hardhat plugin
+This project should create a static router using synthtix hardhat plugin
 
 First compile the contract
 
