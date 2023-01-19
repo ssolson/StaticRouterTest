@@ -27,10 +27,10 @@ module.exports = {
       },
     ],
   },
-  // router: {
-  //   paths: {
-  //     deployments: "deployments", // path to store deployment artifacts
-  //     modules: "modules", // path where to find module contracts
-  //   },
-  // },
+  router: {
+    paths: {
+      deployments: "deployments", // path to store deployment artifacts
+      modules: "modules", // path where to find module contracts
+    },
+  },
 };
