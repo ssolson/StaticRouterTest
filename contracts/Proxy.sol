@@ -6,8 +6,4 @@ import {UUPSProxy} from "@synthetixio/core-contracts/contracts/proxy/UUPSProxy.s
 contract Proxy is UUPSProxy {
     // solhint-disable-next-line no-empty-blocks
     constructor(address firstImplementation) UUPSProxy(firstImplementation) {}
-
-    function getImplementation() internal view virtual returns (address) {
-        return _proxyStore().implementation;
-    }
 }
