@@ -4,7 +4,15 @@ require("@synthetixio/hardhat-router");
 /**
  * @type import('hardhat/config').HardhatUserConfig
  */
+const defaultNetwork = "localhost";
 module.exports = {
+  defaultNetwork,
+
+  networks: {
+    localhost: {
+      url: "http://localhost:8545",
+    },
+  },
   solidity: {
     compilers: [
       {
