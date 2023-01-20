@@ -4,6 +4,9 @@ This project will create a "Loaded Static Router" as coined by Igor Yalovoy
 (https://github.com/ylv-io) in his DEVCON Bogota 2022 presentation
 "Unlimited Size Contracts Using Solidity" (https://youtu.be/qzlUNSt5pnA)
 
+![image](https://user-images.githubusercontent.com/13438942/213811333-c856663a-bdb4-49b0-9ed6-c8bbb767e057.png)
+
+
 The Static Router will be created using synthtix `hardhat-router`. All source code is from
 code the presentation hosted on Igor's github (https://github.com/ylv-io/devcon-bogota-workshop-2022).
 
@@ -26,7 +29,7 @@ With the contracts compiled a static router may be created for them.
 npx hardhat deploy --skip-proxy
 ```
 
-This will create a Router.sol contract as shown below.
+This will create a Router.sol contract as shown below. If you have issue you may want to delete your contract, artifacts, and deployments folder.
 
 The deployed router is the static router discussed by Igor in his presentation.
 
