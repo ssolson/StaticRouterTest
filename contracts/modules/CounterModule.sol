@@ -1,8 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.13;
 
-import { ICounter, BigStruct } from '../ICounter.sol';
-// import { BigStruct } from './ICounter.sol';
+import { ICounter, BigStruct } from '../interfaces/ICounter.sol';
 import { Data } from './Data.sol';
 
 contract CounterStorage {
