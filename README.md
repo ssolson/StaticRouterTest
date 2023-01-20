@@ -66,8 +66,8 @@ Please confirm these deployment parameters:
 ┃ provider: http://localhost:8545
 ┃ instance: official
 ┃ debug: false
-┃ deployment: C:/Users/sterl/Codes/Trustor/StaticRouterTest/depl
-┃ signer: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+┃ deployment: C:/Users/ssolson/Codes/StaticRouterTest/depl
+┃ signer: 0x...
 ┃ signer balance: 10000.0 ETH
 ┃ deployment modules:
 ┃ > contracts/modules/BigModule.sol:BigModule
